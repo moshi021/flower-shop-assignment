@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    margin-top: 0px;
+    width: 1920px;
+    height:850px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
+
+.header_pic{
+    margin:50px 240px 0px 0px;
+    width: 635px;
+    height: 800px
+}
+
+.header_title{
+    width: 708px;
+    height: 288px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 197px 0px 0px 240px;
+
+}
+
+.header_description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 634px;
+    margin: 32px 0px 0px 240px;
+}
+
+.shopnow_button{
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    margin: 32px 0px 0px 240px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+   
