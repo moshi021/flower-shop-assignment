@@ -107,5 +107,34 @@ header{
     padding: 67px 75px 0px 75px;
 }
 
+/*service related style */
+.services{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    margin-left: 240px;
+
+
+}
+.services_pics{
+    width:88px;
+    height:88px;
+    padding: 86px 232px 24px 232px ;
+    gap:350px;
+    display: flex;
+}
+.services_paragraph{
+    display: flex;
+    gap: 100px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0px 170px 87px 160px ;
+}
+
 
 
