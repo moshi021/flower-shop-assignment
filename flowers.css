@@ -38,7 +38,7 @@ header{
     margin: 32px 0px 0px 240px;
 }
 
-.shopnow_button{
+.common_button{
     border-radius: 8px;
     background: #E55473;
     display: inline-flex;
@@ -57,21 +57,22 @@ header{
 /*featured flowers related style */
 
 .featured_flowers_heading{
-    margin-top: 178px;
+    margin: 178px 0px 0px 764px;
     color: #272727;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 40px;
     font-weight: 800;
 }
 
 .featured_flowers_paragraph{
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    /*text-align: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 24px;
+    margin: 24px 0px 0px 664px ;
 }
+
 
 .featured_flowers_pics{
     margin-top: 58px;
@@ -107,6 +108,19 @@ header{
     padding: 67px 75px 0px 75px;
 }
 
+.flower_names{
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    gap:320px;
+    margin-left: 381px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+
+}
+
 /*service related style */
 .services{
     width: 1440px;
@@ -122,19 +136,85 @@ header{
     width:88px;
     height:88px;
     padding: 86px 232px 24px 232px ;
-    gap:350px;
+    gap:360px;
     display: flex;
 }
 .services_paragraph{
     display: flex;
-    gap: 100px;
+    gap: 90px;
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
-    padding: 0px 170px 87px 160px ;
+    padding: 0px 170px 87px 150px ;
+    margin-bottom:0px;
 }
 
+/*hot deals section */
+
+.hot_deals{
+    margin-top: 128px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot_deals_heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin:230px 0px 0px 423px;
+}
+
+.hot_deals_paragraph{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    /*text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:24px 0 32px 395px ;
+}
+
+.hot_deals_pic{
+    width: 318px;
+    height: 420px;
+    margin: 100px 429px 100px 0px;
+}
+
+/*instagram section style */
+
+.instagram{
+    margin:128px ;
+}
+
+.instagram_heading{
+    color: #272727;
+    /*text-align: center; */
+    margin: 0 0 24px 870px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_paragraph{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram_images{
+    display: flex;
+    gap:24px;
+    margin: ;
+
+}
 
 
