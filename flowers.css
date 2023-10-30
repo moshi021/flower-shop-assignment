@@ -110,10 +110,7 @@ header{
 
 .flower_names{
     text-decoration: underline;
-    text-align: center;
-    display: flex;
-    gap:320px;
-    margin-left: 381px;
+    display:flex;
     color: #272727;
     font-size: 24px;
     font-weight: 700;
@@ -262,7 +259,33 @@ input {
     margin: 48px 0px 121px 16px;
 } 
 
+/*map*/
+.map_heading{
+    color: #272727;
+    font-size: 40px;
+    margin-left: 960px;
+    font-weight: 800;
+    margin-bottom:0;
+
+}
+
+.map_para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 895px;
+    margin-bottom: 12px;
+}
+
+.map{
+    padding-left: 900px;
+}
+
+/* footer*/
+
 footer{
+    margin-top: 120px;
     padding-top: 128px;
     width: 2010px;
     height: 449px;
